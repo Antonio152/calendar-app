@@ -6,8 +6,8 @@ module.exports = {
   },
   setupFilesAfterEnv: [
     '<rootDir>/_test_/mocks/envValues.ts'
-  ]
-  // moduleNameMapper: {
-  //   '\\.(css|less)$': '<rootDir>/_test_/mocks/styleMock.ts'
-  // }
+  ],
+  moduleNameMapper: {
+    '\\.(css|less)$': '<rootDir>/_test_/mocks/styleMock.ts'
+  }
 }

@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing in AppRouter should render the login page 1`] = `
+<div
+  aria-hidden="true"
+>
+  <div
+    class="col-9 m-auto d-flex bLogin centerLogin bg-white"
+  >
+    <div
+      class="col-lg-5 col-md-5 d-flex justify-content-center noShowImageLogin"
+    >
+      <img
+        alt=""
+        class="imgContain"
+        height="100%"
+        src="/images/login-inicio.gif"
+        width="100%"
+      />
+    </div>
+    <div
+      class="col-lg-7 col-md-7 col-sm-12 m-auto p-5"
+    >
+      <div>
+        <form>
+          <h2
+            class="mb-3 text-center"
+          >
+            Inicia sesión
+          </h2>
+          <div
+            class="form-floating mb-3"
+          >
+            <input
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="Email"
+              type="email"
+              value=""
+            />
+            <label
+              for="email"
+            >
+              Email
+            </label>
+          </div>
+          <div
+            class="form-floating mb-3"
+          >
+            <input
+              class="form-control"
+              id="password"
+              name="password"
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+            <label
+              for="password"
+            >
+              Password
+            </label>
+          </div>
+          <div
+            class="text-end mt-3 mb-3"
+          >
+            <a
+              href="#"
+            >
+              ¿Olvidaste tu contraseña?
+            </a>
+          </div>
+          <div
+            class="d-grid gap-2"
+          >
+            <button
+              class="btn btn-primary"
+              type="submit"
+            >
+              Iniciar sesión
+            </button>
+          </div>
+          <div
+            class="text-center mt-3"
+          >
+            <span>
+              Tambien puedes iniciar sesión con:
+            </span>
+            <div
+              class="d-flex gap-4 mt-3 justify-content-center"
+            >
+              <button
+                class="btn btn-link btn-floating mx-1"
+                type="button"
+              >
+                <i
+                  class="fa-brands fa-google"
+                />
+              </button>
+              <button
+                class="btn btn-link btn-floating mx-1"
+                type="button"
+              >
+                <i
+                  class="fa-brands fa-facebook"
+                />
+              </button>
+              <button
+                class="btn btn-link btn-floating mx-1"
+                type="button"
+              >
+                <i
+                  class="fa-brands fa-twitter"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            class="text-center mt-4 "
+          >
+            <span>
+              ¿No eres miembro? 
+               
+              <span
+                class="registerTxt"
+              >
+                Registrate
+              </span>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
