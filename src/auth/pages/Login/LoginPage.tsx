@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { LoginComponent } from "./components/LoginComponent";
 import { RegisterComponent } from "./components/RegisterComponent";
 import { TActiveState } from "./types/LoginPageTypes";
-import logingif from "/images/login-inicio.gif";
+/* !Important on dev mode remove . */
 import "./LoginCss.css";
 export const LoginPage = () => {
   const [active, setActive] = useState<TActiveState>("login");
@@ -12,7 +12,7 @@ export const LoginPage = () => {
         {/* TODO: HIDDEN IMAGE IN SMALL DESIGN */}
         <div className="col-lg-5 col-md-5 d-flex justify-content-center noShowImageLogin">
           <img
-            src={logingif}
+            src="./images/login-inicio.gif"
             alt=""
             width="100%"
             height="100%"
